@@ -1,0 +1,124 @@
+
+.container {
+  background: gray;
+  width: 100%;
+  height: 100%;
+}
+
+header {
+  background: #1d1d1dc2;
+  padding-left: 2rem;
+  padding-top: 1.2rem;
+  padding-bottom: 1.2rem;
+}
+
+textarea {
+  resize: none;
+}
+
+.tile {
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.select__category {
+  width: 16.5rem;
+  margin: 15px;
+  padding: 10px;
+  border-radius: 6px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.form__inputs {
+  display: flex;
+}
+
+.notes-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.input__note {
+  width: 15rem;
+  border: 0;
+  border-radius: 5px;
+  margin: 15px;
+  padding: 10px;
+}
+
+.add__button {
+  width: 16.5rem;
+  margin: 15px;
+  padding: 10px;
+  border-radius: 6px;
+}
+
+.note__simple-text {
+  margin: 15px;
+  color: white;
+}
+
+.note {
+  background: white;
+  padding-left: 2rem;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.note__container {
+  display: flex;
+}
+
+.map {
+  margin: 15px;
+  position: relative;
+}
+
+.small__map {
+  margin: 15px;
+  position: relative;
+  width: 15rem;
+  height: 12rem;
+}
+
+.note div:last-child{
+  width: 21%;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
